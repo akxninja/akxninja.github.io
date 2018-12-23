@@ -4,8 +4,8 @@ title: About
 sidebar_link: true
 ---
 
-<h1 class="message">
+<div>
   <script src="https://www.hackthebox.eu/badge/948"></script>
-</h1>
+</div>
 
 
