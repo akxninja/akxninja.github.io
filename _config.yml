@@ -34,5 +34,10 @@ sidebar_home_link:  true
                                 # page. If you change your paginate_path,
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
+<<<<<<< HEAD
 #github:
  # repo:             https://github.com/fongandrew/hydeout
+=======
+
+theme: jekyll-theme-hacker
+>>>>>>> bd77a951783810fcdd0ab1afb63bac5c85593c87
