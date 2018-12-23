@@ -6,7 +6,7 @@ highlighter:      rouge
 # Setup
 title:            akxninja
 tagline:          'ninjacrew'
-# description:      '<script src="https://www.hackthebox.eu/badge/948"></script>'
+description:      'Red Teaming Stuff'
 url:              https://akxninja.github.io/
 baseurl:          # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
