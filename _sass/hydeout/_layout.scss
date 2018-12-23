@@ -23,7 +23,7 @@
 */
 
 body {
-  color: $sidebar-text-color;
+  color: rgba(255,255,255,.75);
   background-color: $sidebar-bg-color;
   background-image: linear-gradient(
     to bottom,
@@ -43,8 +43,14 @@ body {
     font-family: "Abril Fatface", serif;
     font-weight: normal;
     font-size: $large-font-size;
+    color: rgba(255,255,255,.75);
     margin-top: 0;
     margin-bottom: $heading-spacing;
+
+    a {
+      color: inherit;
+      &:hover { color: white; }
+    }
 
     .back-arrow { margin-right: 0.5rem; }
   }
@@ -58,7 +64,6 @@ body {
 
   > .content {
     flex-grow: 1;
-    padding-bottom: $section-spacing * 2;
   }
 }
 
@@ -83,14 +88,14 @@ body {
 
 // Make header elements blend into sidebar / background
 .container > header {
-  color: $sidebar-title-color;
   background: transparent;
+  color: white;
   margin: ($heading-spacing - $section-spacing)
           $section-spacing
           $section-spacing;
 
   h1, h2 {
-    color: inherit;
+    color: white;
 
     &:last-child {
       margin-bottom: 0;
@@ -111,6 +116,7 @@ body {
   // Bigger title
   .site-title {
     font-size: 3.25rem;
+    color: white;
   }
 
   // Show secondary nav content + lead
@@ -140,13 +146,8 @@ body {
   body {
     flex-direction: row;
     height: 100vh;
-    overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
-    > * {
-      max-height: 100vh; 
-      overflow-y: auto; 
-      -webkit-overflow-scrolling: touch;
-    }
+    overflow: auto;
+    > * { max-height: 100vh; overflow: auto; }
   }
 
   /* Undo mobile CSS */
@@ -163,6 +164,8 @@ body {
   #sidebar {
     .site-title {
       font-size: 3.25rem;
+
+      a { color: white; }
       .back-arrow { display: none; }
     }
 
@@ -181,13 +184,11 @@ body {
   .container {
     background: $body-bg;
     color: $body-color;
-    padding: $section-spacing * 2
-             $section-spacing * 2
-             0;
+    padding: $section-spacing * 2;
     height: 100vh;
 
     > header {
-      color: $heading-color;
+      color: inherit;
       margin: 0;
       h1, h2 {
         color: inherit;
@@ -211,14 +212,14 @@ body {
 ----------------------------------------------------------- */
 
 #sidebar a {
-  color: $sidebar-link-color;
+  color: #fff;
 
   svg {
-    fill: $sidebar-icon-color;
+    fill: rgba(255, 255, 255, 0.85);
   }
 
   &:hover, &:focus, &.active {
-    svg { fill: $sidebar-icon-color; }
+    svg { fill: #fff; }
   }
 
   &:hover, &:focus {
@@ -233,10 +234,6 @@ body {
   }
 }
 
-#sidebar .site-title {
-  color: $sidebar-title-color;
-  a { color: inherit; }
-}
 #sidebar nav {
   display: flex;
 }
