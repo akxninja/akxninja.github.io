@@ -1,8 +1,13 @@
 ---
 layout: post
-title: First_post
+title: Windows Network Penetration Testing for Dummies
 categories:
-  - Wifi Pentesting
+  - Windows Network Authentication Protocols
+  - A Brief Note on SMB Signing
+  - Attacks on LLMNR,NBT-NS,WPAD
+  - Prevention Methods
 ---
 
-#First_POST
+Windows Network Penetration Testing Essentials
+
+(Coming soon!)
