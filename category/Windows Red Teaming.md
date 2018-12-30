@@ -1,6 +1,6 @@
 ---
 layout: category
-title: Posts
+title: Windows Red Teaming
 ---
 <h1><b>Introduction</b></h1><br>
 <b>Active Directory Overview <br>
