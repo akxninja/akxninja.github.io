@@ -1,10 +1,6 @@
 ---
-layout: home
-title: Windows Network Penetration Testing for Dummies
-categories:
-  - Active Directory Authentication Mechanisms
+layout: post
+title: Active Directory overview
 ---
 
-Windows Network Penetration Testing Essentials
-
-(Coming soon!)
+Coming soon!
